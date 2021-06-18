@@ -23,7 +23,7 @@
 
 # Supported URL
 gallery-dl is used to download. Its support sites are:
-- [supported site list](https://github.com/mikf/gallery-dl/blob/master/docs/supportedsites.rst)
+- [supported site list](https://github.com/mikf/gallery-dl/blob/master/docs/supportedsites.md)
 
 
 # Workflow
