@@ -38,23 +38,17 @@ gallery-dl is used to download. Its support sites are:
 # Run python
 python gui.py  
 
-# pip install 
-pip install tensorflow-gpu==1.14.0   
-pip install requests  
-pip install PyQt5  
-pip install tqdm funcy opencv-python Pillow  
+# pip install   
+pip install tqdm opencv-python Pillow  
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib  
 pip install --upgrade pyinstaller==3.2.1  
 pip install cefpython3  
 pip install pywin32  
 pip install matplotlib  
-pip install imageio  
 pip install google_trans_new  
 pip install beautifulsoup4  
 pip install wget  
 pip install pyperclip  
-pip install astor==0.8.0  
-pip uninstall h5py  
 
 or  
 conda remove --name py35 --all  
