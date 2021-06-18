@@ -1,6 +1,6 @@
 # JMTS
 - japanese manga translator using segmentation
-- currently developing colab version
+- pre released colab version  
 - 
 # Result   
 ![result](doc/screenshot_1.png)    
