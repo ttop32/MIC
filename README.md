@@ -1,5 +1,5 @@
 # JMTS
-- japanese manga translator using segmentation
+- japanese manga translator using segmentation(Unconstrained Text Detection in Manga)
 - pre released colab version  
 - 
 # Result   
