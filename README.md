@@ -1,7 +1,7 @@
 # JMTS
 - japanese manga translator using segmentation([Unconstrained Text Detection in Manga](https://github.com/juvian/Manga-Text-Segmentation))
 - pre released colab version  
-- 
+
 # Result   
 ![result](doc/screenshot_1.png)    
 ![result](doc/screenshot_2.png)     
@@ -25,7 +25,7 @@ gallery-dl is used to download. Its support sites are:
 
 
 # Run python
-python gui.py  
+- todo
 
 # pip install   
 pip install tqdm opencv-python Pillow  
