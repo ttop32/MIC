@@ -10,28 +10,17 @@
 
 
 
-# Required environment to run  
-- google ocr : google drive permission(credential file and scope file)
-- window ocr : Microsoft.NET v4.0.30319,net core 3.1 runtime and window japanese ocr
-- ez trans xp korea translator : ez trans xp program and ehnd 
-
-# How to use  
-- open the program and type manga site url then press enter
-- It process translation (it takes time)
-- it will create zip file on user's window download folder
-
-
 # Supported URL
 gallery-dl is used to download. Its support sites are:
 - [supported site list](https://github.com/mikf/gallery-dl/blob/master/docs/supportedsites.md)
 
 
 # Workflow
-- use gallery-dl to get managa from inputted url 
-- do text segmentation from manga image using SickZil
+- use gallery-dl to get managa image from inserted url 
+- do text segmentation([Unconstrained Text Detection in Manga](https://github.com/juvian/Manga-Text-Segmentation)) on manga image
 - use opencv contour technique to detect text to crop text image based on text segmentation results
-- get text from image using google ocr(or window ocr)
-- convert japanese text to translated text using eztrans xp(or google translator)
+- recognise text using ocr(google ocr or tesseract ocr)
+- convert japanese text to translated text using translator(google translate)
 - use pil to place translated text
 
 
