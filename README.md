@@ -1,6 +1,6 @@
 # JMTS
 - japanese manga translator using segmentation([Unconstrained Text Detection in Manga](https://github.com/juvian/Manga-Text-Segmentation))
-- pre released colab version  https://colab.research.google.com/drive/1HBABUkP6ONlwQz8VLz0afy4AIN-iwlWN?usp=sharing
+- pre released colab version https://colab.research.google.com/drive/1blsOgcn869SEdczvq4sB0JWUHDAENm6h?usp=sharing
 
 # Result   
 ![result](doc/screenshot_1.png)    
