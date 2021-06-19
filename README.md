@@ -3,17 +3,17 @@
 - comaprison prcoessed from colab https://colab.research.google.com/drive/1blsOgcn869SEdczvq4sB0JWUHDAENm6h?usp=sharing
 
 # Result   
-- original
+- original   
 ![result](doc/ori.png)    
-- mask
+- mask   
 ![result](doc/mask.png)    
-- Telea
+- Telea   
 ![result](doc/inpaintTelea2004.png)     
-- Biharmoinc
+- Biharmoinc   
 ![result](doc/inpaintBiharmonic2018.png)    
-- PatchMatch
+- PatchMatch   
 ![result](doc/inpaintPatchMatch2010.png)    
-- SickZil
+- SickZil    
 ![result](doc/inpaintSickZil2020.png)    
 
 
