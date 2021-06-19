@@ -1,6 +1,6 @@
 # MIC
 - manga inpaint comparison using segmentation([Unconstrained Text Detection in Manga](https://github.com/juvian/Manga-Text-Segmentation))
-- pre released colab version https://colab.research.google.com/drive/1blsOgcn869SEdczvq4sB0JWUHDAENm6h?usp=sharing
+- comaprison prcoessed from colab https://colab.research.google.com/drive/1blsOgcn869SEdczvq4sB0JWUHDAENm6h?usp=sharing
 
 # Result   
 ![result](doc/screenshot_1.png)    
@@ -18,38 +18,11 @@ gallery-dl is used to download. Its support sites are:
 # Workflow
 - use gallery-dl to get managa image from inserted url 
 - do text segmentation([Unconstrained Text Detection in Manga](https://github.com/juvian/Manga-Text-Segmentation)) on manga image
-- use opencv contour technique to detect text to crop text image based on text segmentation results
-- recognise text using ocr(google ocr or tesseract ocr)
-- convert japanese text to translated text using translator(google translate)
-- use pil to place translated text
-
-
-# Run python
-- todo
-
-# pip install   
-pip install tqdm opencv-python Pillow  
-pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib  
-pip install --upgrade pyinstaller==3.2.1  
-pip install cefpython3  
-pip install pywin32  
-pip install matplotlib  
-pip install google_trans_new  
-pip install beautifulsoup4  
-pip install wget  
-pip install pyperclip  
-
-or  
-conda remove --name py35 --all  
-conda create --name py35 python=3.5  
-activate py35  
-pip install -r requirements.txt  
-pip freeze > requirements.txt  
-
+- inpaint processed
 
 # Acknowledgement and References  
 - [Unconstrained Text Detection in Manga](https://github.com/juvian/Manga-Text-Segmentation)
-- [Telea Inpaint](https://docs.opencv.org/3.4/df/d3d/tutorial_py_inpainting.html  )
+- [Telea Inpaint](https://docs.opencv.org/3.4/df/d3d/tutorial_py_inpainting.html)
 - [Biharmoic inpaint](https://scikit-image.org/docs/dev/auto_examples/filters/plot_inpaint.html)
 - [PatchMatch inpaint](https://github.com/vacancy/PyPatchMatch.git)
 - [gallery-dl](https://github.com/mikf/gallery-dl)  
