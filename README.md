@@ -3,11 +3,18 @@
 - comaprison prcoessed from colab https://colab.research.google.com/drive/1blsOgcn869SEdczvq4sB0JWUHDAENm6h?usp=sharing
 
 # Result   
-![result](doc/screenshot_1.png)    
-![result](doc/screenshot_2.png)     
-![result](doc/screenshot_3.png)    
-![result](doc/screenshot_4.png)    
-
+- original   
+![result](doc/ori.png)    
+- mask   
+![result](doc/mask.png)    
+- Telea   
+![result](doc/inpaintTelea2004.png)     
+- Biharmoinc   
+![result](doc/inpaintBiharmonic2018.png)    
+- PatchMatch   
+![result](doc/inpaintPatchMatch2010.png)    
+- SickZil    
+![result](doc/inpaintSickZil2020.png)    
 
 
 # Supported URL
@@ -25,6 +32,7 @@ gallery-dl is used to download. Its support sites are:
 - [Telea Inpaint](https://docs.opencv.org/3.4/df/d3d/tutorial_py_inpainting.html)
 - [Biharmoic inpaint](https://scikit-image.org/docs/dev/auto_examples/filters/plot_inpaint.html)
 - [PatchMatch inpaint](https://github.com/vacancy/PyPatchMatch.git)
+- [SickZil-Machine](https://github.com/KUR-creative/SickZil-Machine)  
 - [gallery-dl](https://github.com/mikf/gallery-dl)  
 - [Tesseract](https://github.com/tesseract-ocr/tesseract)  
 - [Pytesseract](https://pypi.python.org/pypi/pytesseract)  
