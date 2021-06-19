@@ -1,5 +1,5 @@
-# JMTS
-- japanese manga translator using segmentation([Unconstrained Text Detection in Manga](https://github.com/juvian/Manga-Text-Segmentation))
+# MIC
+- manga inpaint comparison using segmentation([Unconstrained Text Detection in Manga](https://github.com/juvian/Manga-Text-Segmentation))
 - pre released colab version https://colab.research.google.com/drive/1blsOgcn869SEdczvq4sB0JWUHDAENm6h?usp=sharing
 
 # Result   
